@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Contacta con INKSPIRE - Reserva tu cita o consulta tus dudas">
+    <title>INKSPIRE - Contacto</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="img/maquina.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <h1>INKSPIRE</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="estilos.html">Estilos</a></li>
+                <li><a href="contacto.html" style="color: rgba(255, 166, 0, 0.781);">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p class="text-center">¿Tienes preguntas o quieres reservar una cita? Completa el formulario y te responderemos a la brevedad.</p>
+            
+            <form id="formContacto">
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" id="nombre" name="nombre" required placeholder="Ej: Juan Luis" />
+                
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required placeholder="Ej: ejemplo@email.com" />
+                
+                <label for="telefono">Teléfono (opcional):</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="Ej: +34 000 000 000" />
+                
+               
+                
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required rows="5" placeholder="Describe tu idea, consulta o solicitud..."></textarea>                
+            
+                
+                <button type="submit">Enviar mensaje</button>
+            </form>
+            
+            <div id="respuesta"></div>
+            
+            <div class="info-contacto">
+                <h3>También puedes contactarnos directamente:</h3>
+                <p>Teléfono: <a href="tel:+34987654321">+34 987 654 321</a></p>
+                <p>Email: <a href="mailto:info@inkspire.com">info@inkspire.com</a></p>
+                <p>Dirección: Calle del Tatuaje, 123, Madrid, España</p>
+                <p>Horario: Lunes a Viernes de 10:00 a 20:00</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 INKSPIRE - Todos los derechos reservados</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>

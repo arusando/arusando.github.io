@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Galería de tatuajes INKSPIRE - Inspírate con nuestros diseños">
+    <title>INKSPIRE - Galería</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Bootstrap CSS para el carrusel -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="icon" href="img/maquina.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <h1>INKSPIRE</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="galeria.html" style="color: rgba(255, 166, 0, 0.781);">Galería</a></li>
+                <li><a href="estilos.html">Estilos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Sección del carrusel -->
+        <section id="galeria">
+            <h2>Galería de Tatuajes</h2>
+            <p class="text-center">Explora nuestra colección de trabajos realizados por artistas profesionales.</p>
+
+            <!-- Carrusel de Bootstrap -->
+            <div id="miCarrusel" class="carousel slide" data-bs-ride="carousel">
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <img src="img/Tatu1.jpg" class="d-block w-100" alt="Tatuaje estilo tradicional" />
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Estilo Darkwork</h5>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="img/tatu2.jpg" class="d-block w-100" alt="Tatuaje realista" />
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Estilo Japonés</h5>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="img/tatu3.jpg" class="d-block w-100" alt="Tatuaje minimalista" />
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Estilo Tradicional</h5>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="img/tatu4.jpg" class="d-block w-100" alt="Tatuaje minimalista" />
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Estilo Realista</h5>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="img/tatu5.jpg" class="d-block w-100" alt="Tatuaje minimalista" />
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Estilo Minimalista</h5>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="img/tatu6.jpg" class="d-block w-100" alt="Tatuaje minimalista" />
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Estilo Acuarela</h5>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="img/tatu7.jpg" class="d-block w-100" alt="Tatuaje minimalista" />
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Estilo Neotradicional</h5>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Controles del carrusel -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#miCarrusel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#miCarrusel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+
+                <!-- Indicadores -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#miCarrusel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#miCarrusel" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#miCarrusel" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#miCarrusel" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#miCarrusel" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#miCarrusel" data-bs-slide-to="5"
+                        aria-label="Slide 6"></button>
+                    <button type="button" data-bs-target="#miCarrusel" data-bs-slide-to="6"
+                        aria-label="Slide 7"></button>
+                </div>
+            </div>
+
+            <!-- Botón para ver más -->
+            <div class="text-center mt-4">
+                <a href="galeria-extendida.html" class="btn-ver-mas">Ver galería completa</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2025 INKSPIRE - Todos los derechos reservados</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
