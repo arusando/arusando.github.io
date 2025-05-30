@@ -1,11 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ProyectoLM</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tatuajes Increíbles</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <p>KOKO</p>
+    <header>
+        <h1>Tatuajes Increíbles</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#estilos">Estilos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h2>Bienvenido a Tatuajes Increíbles</h2>
+        <p>Descubre el arte en tu piel y encuentra inspiración para tu próximo tatuaje.</p>
+    </section>
+
+    <section id="galeria">
+        <h2>Galería de Tatuajes</h2>
+        <div class="galeria">
+            <!-- Aquí irán las imágenes -->
+            <img src="imagenes/tatuaje1.jpg" alt="Tatuaje 1" />
+            <img src="imagenes/tatuaje2.jpg" alt="Tatuaje 2" />
+            <img src="imagenes/tatuaje3.jpg" alt="Tatuaje 3" />
+        </div>
+    </section>
+
+    <section id="estilos">
+        <h2>Estilos de Tatuajes</h2>
+        <ul>
+            <li><strong>Tradicional:</strong> Líneas gruesas y colores brillantes.</li>
+            <li><strong>Realista:</strong> Detalles precisos y sombras.</li>
+            <li><strong>Minimalista:</strong> Diseño simple y limpio.</li>
+        </ul>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form id="formContacto">
+            <label for="nombre">Nombre:</label><br />
+            <input type="text" id="nombre" name="nombre" required /><br />
+            <label for="email">Email:</label><br />
+            <input type="email" id="email" name="email" required /><br />
+            <label for="mensaje">Mensaje:</label><br />
+            <textarea id="mensaje" name="mensaje" required></textarea><br />
+            <button type="submit">Enviar</button>
+        </form>
+        <div id="respuesta"></div>
+    </section>
+
+    <footer>
+        <p>© 2025 Tatuajes Increíbles</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
+
